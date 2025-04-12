@@ -90,5 +90,18 @@ class Penyakit extends Seeder
             ',
             'image' => '2142497414.png',
         ]);
+
+        
+        ModelsPenyakit::create([
+            'name' => 'Rebah Batang',
+            'reason' => 'Jamur Rhizoctonia solani',
+            'solution' => '1.   Mengurangi kelembaban di pembibitan melalui penebaran benih yang tidak terlalu rapat, diusahakan mendapatkan cahaya matahari, dan pengaturan frekuensi penyiraman.
+            2.  Memilih tanah pembibitan yang bebas dari cendawan patogen R. solani.
+            3.	Tanah-tanah yang terkontaminasi penyakit layu jangan digunakan. Infeksi penyakit layu dapat dipelajari pada tanaman sebelumnya.
+            4.  Aplikasi Trichoderma sp. dengan dosis 200 g/tanaman pada media pembibitan.
+        hama dan penyakit serta menaikkan hasil.
+            ',
+            'image' => '2142497414.png',
+        ]);
     }
 }
