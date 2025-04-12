@@ -91,6 +91,53 @@ class Penyakit extends Seeder
             'image' => '2142497414.png',
         ]);
 
+        ModelsPenyakit::create([
+            'name' => 'Penggerek Buah kopi',
+            'reason' => 'Hypothene mus hampei ',
+            'solution' => '1. Memberikan pupuk yang tepat secara teknis dan dosis.
+            2. Pembersihan kebun dari buah kopi yang jatuh atau tersisa setelah panen untuk memutus siklus hidup PBKo. 
+            3. Memungut buah yang terserang dan memusnahkannya dengan cara dibenamkan atau dibakar, atau direndam dengan air panas. 
+            4. Melakukan "lelesan" (mengumpulkan buah yang jatuh) dan "rampasan" (memetik semua buah di pohon) untuk memutus siklus hidup PBKo. 
+            ',
+            'image' => '3522716.png',
+        ]);
+        
+        ModelsPenyakit::create([
+            'name' => 'Penggerek Batang Merah',
+            'reason' => 'Zeuzera Coffeae',
+            'solution' => '1. Potong Bagian batang yang menjadi sarang telur penggerek batang merah dan bakar batang tersebut.
+            2. Gunakan lampu yang teranng sebagai perangkap hama.
+            3. untuk serangan yang sudah semakin parah anda bisa menggunakan insektisida.
+            ',
+            'image' => '344412.png', 
+            ]);
+
+        ModelsPenyakit::create([
+            'name' => 'Penggerek Cabang dan Ranting',
+            'reason' => 'Xylosandrus compactus',
+            'solution' => '1. Memotong ranting yang terserang hama dapat mencegah penyebaran yang semakin parah.
+            2. Pemusnahan bagian yang terserang dengan cara membakar atau mengubur.
+            3. Penggunaan insektisida.
+            ',
+            'image' => '1133221.png',
+        ]);
+        ModelsPenyakit::create([
+            'name' => 'Kutu Hijau',
+            'reason' => 'Coccus Viridis',
+            'solution' => '1. Pangkas daun yang sudah rusak karena kutu ini dan lepaskan predator alami yang memakan kutu ini ajan membantu mengurangi jumlahnya.
+            2. Gunakan insektisida alami yang terbuat dari air tembakau untuk mengusir hama.
+            ',
+            'image' => '64636486281.jpg',
+        ]);
+
+        ModelsPenyakit::create(attributes:[
+            'name' => 'Sanurus Inderoca',
+            'reason' => 'Corcicium Salmonicolor',
+            'solution' => '1. Lepaskan predator alami wereng, seperti ngengat epipyropidae cukup efektif untuk membasmi wereng.
+            2. Gunakan pestisida yang sedikit lebih keras karena wreeng memiliki cairan lilin pada tubuhnya yang cukup sulit ditembus.
+            3. pengendalian dengan cendawan, pengendalian kultur, dan pengendalian biologis.
+            ',
+            'image' => '1237859333.png',
         
         ModelsPenyakit::create([
             'name' => 'Rebah Batang',
