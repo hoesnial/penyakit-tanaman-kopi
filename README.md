@@ -70,3 +70,11 @@
     ```
 
 ### Menjalankan dengan `php artisan serve`
+
+admin
+emial : admin@example.com
+pw : password
+
+user
+email : user@example.com
+pw : password
