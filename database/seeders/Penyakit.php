@@ -21,92 +21,74 @@ class Penyakit extends Seeder
         //image
 
         ModelsPenyakit::create([
-            'name' => 'Virus Kuning (Gemini Virus)',
-            'reason' => 'Virus Gemini. Virus ini ditularkan oleh kutu putih/kutu kebul Bemisia tabaci',
-            'solution' => '1.	 Penggunaan mulsa perak di dataran tinggi, dan jerami di dataran rendah mengurangi infestasi serangga pengisap daun
-            2.	Eradikasi tanaman sakit, yaitu tanaman yang menunjukkan gejala segera dicabut dan dimusnahkan supaya tidak menjadi sumber penularan ke tanaman lain yang sehat
-            3.	Menanam varietas yang agak tahan (karena tidak ada yang tahan) misalnya cabai keriting jenis Bukittinggi
-            4.	Melakukan rotasi / pergiliran tanaman dengan tanaman bukan inang. Melakukan sanitasi lingkungan
-            5.  Lakukan pengendalian untuk gejala ringan dengan mengaplikasikan pgpr atau pupuk hayati
-            6.  Pemupukan yang berimbang, yaitu 150-200 kg Urea, 450-500 kg Za, 100-150 kg TSP, 100-150 KCL, dan 20-30 ton pupuk organik per hektar
-            7.    Usaha pengendalian penyakit virus kuning (khususnya dengan pestisida) terutama ditujukan kepada serangga vektornya
+            'name' => 'Karat Daun (Hemileia vastatrix)',
+            'reason' => 'Jamur bernama Hemileia vastatix. Suhu, kelembapan, hingga jumlah air yang terlalu banyak membuat jamur ini berkembang dengan pesat.',
+            'solution' => 'Memilih varietas kopi yang kebal terhadap penyakit ini merupakan cara paling efektif untuk mengatasinya. Selain itu, penggunaan fungisida yang tepat bisa menekan pertumbuhan jamur ini.
             ',
-            'image' => '583706090.jpg',
-        ]);
-
-        ModelsPenyakit::create([
-            'name' => 'Kerupuk',
-            'reason' => 'Chilli Puckery Stunt Virus (CPSV), patogen ditularkan oleh kutudaun Aphis gossypii ',
-            'solution' => '1.	 Tanaman muda yang terinfeksi virus di lapangan dimusnahkan dan disulam dengan yang sehat.
-            2.	Penggunaan mulsa plastik perak di dataran tinggi, dan jerami di dataran rendah mengurangi infestasi kutudaun yang berperan sebagai vektor virus.
-            3.  Intercropping antara cabai dan tomat di dataran tinggi dapat mengurangi serangan hama dan penyakit serta menaikkan hasil panen.
-            4.  Pemupukan yang berimbang, yaitu Urea 150-200 kg, ZA 450-500 kg, TSP 100-150 kg, KCl 100-150 kg, dan pupuk organik 20-30 ton perhektar
-            5.	Aplikasi insektisida untuk mengendalikan kutudaun menggunakan nozel kipas agar terjadi pengurangan volume inseksida sebanyak 30%.
-            ',
-            'image' => '868674832.jpg',
-        ]);
-
-        ModelsPenyakit::create([
-            'name' => 'Antraknosa',
-            'reason' => 'Jamur Colletotricum capsici dan Jamur Gloeosporium sp.',
-            'solution' => '1.   Pengendalian secara fisik/mekanik, dengan eradikasi selektif dan sanitasi kebun.
-            2.	Pengendalian secara bercocok tanam, meliputi pergiliran tanaman, perbaikan drainase, penentuan waktu tanam, penggunaan bibit sehat, penanaman varietas tahan.
-            3.	Saat semai tanah dicampur kompos Trichoderma.
-            4.	Perlakuan biji sebelum ditanam, direndam dengan Trichoderma 20 cc/liter air.
-            5.  Pengendalian kimiawi, dengan menggunakan fungisida yang efektif yang telah diizinkan oleh Menteri Pertanian.
-            ',
-            'image' => '190785420.jpg',
+            'image' => '1237859333.png',
         ]);
 
         ModelsPenyakit::create([
             'name' => 'Bercak Daun',
+            'reason' => 'Jamur cercospora coffeicola ',
+            'solution' => '1.	 Mengaplikasikan fungisida kimia berbahan aktif mancozeb seperti merek dagang Dithane.
+            2.	Mengurangi kelembaban dengan mengurangi penyiraman, menjarangkan atap penaung sehingga sinar matahari dapat langsung masuk.
+            3.  Melakukan sanitasi dengan memangkas daun yang sakit dan membakarnya atau membenamkannya di dalam tanah. 
+            4.  Penyakit pada buah dapat diatasi dengan mengatur peneduh.	
+            ',
+            'image' => '319391073.png',
+        ]);
+
+        ModelsPenyakit::create([
+            'name' => 'Jamur Upas',
+            'reason' => 'Jamur Corticium Salmoicolor. Kelembapan yang terlalu tinggi menjadi penyebab berkembangnya jamur ini.',
+            'solution' => '1.   Menghilangkan buah kopi yang terinfeksi dan membakarnya atau menguburnya untuk mencegah penyebaran jamur.
+            2.	Memangkas cabang dan batang yang terinfeksi untuk menghentikan penyebaran jamur.
+            3.	Menggunakan mikroorganisme antagonis seperti Pseudomonas sp. atau Trichoderma sp. untuk mengendalikan jamur.
+            4.	Fungisida tembaga (Copper Oxide 56% atau Cu 50%) diterapkan pada kopi dengan dosis 2–5 gram/L air, diulang setiap 1–2 minggu pada bagian yang terinfeksi.
+            ',
+            'image' => '1439769661.png',
+        ]);
+
+        ModelsPenyakit::create([
+            'name' => 'Kanker Belah',
             'reason' => 'Cercospora Capsici',
-            'solution' => '1.	 Pengendalian secara fisik/mekanik, dengan melakukan sanitasi, eradikasi selektif terhadap tanaman terserang.
-            2.  Pengendalian secara bercocok tanam, meliputi pergiliran tanaman, perbaikan drainase, penentuan waktu tanam, penggunaan bibit sehat
-            3.	Perlakuan biji sebelum ditanam, direndam dengan Trichoderma 20 cc/liter air.
-            4.	Pemupukan organik seperti kompos Trichoderma atau bahan organic lain.
-            5.	Pengendalian kimiawi, dengan aplikasi fungisida yang efektif yang telah diizinkan oleh Menteri Pertanian.
+            'solution' => 'Bakar seluruh tanaman yang sudah terinfeksi. Ganti lahan untuk menghindari penularan kepada tanaman kopi yang baru.
             ',
-            'image' => '1640319795.jpg',
+            'image' => '2124657611.png',
         ]);
 
         ModelsPenyakit::create([
-            'name' => 'Busuk Daun Fitoftora',
-            'reason' => 'Phytophthora Capsici',
-            'solution' => '1.   Penggunaan mulsa plastik perak di dataran tinggi, dan jerami di dataran rendah mengurangi infestasi penyakit, terutama di musim hujan.
-            2.  Tanaman muda yang terinfeksi penyakit di lapangan dimusnahkan dan disulam dengan yang sehat.
-            3.	Intercropping antara cabai dan tomat di dataran tinggi dapat mengurangi serangan hama dan penyakit serta menaikkan hasil panen.
-            4.	Pemupukan yang berimbang, yaitu Urea 150-200 kg, ZA 450-500 kg, TSP 100-150 kg, KCl 100-150 kg, dan pupuk organik 20-30 ton per hektar.
-            5.	Cendawan Phytophthora capsici dapat dikendalikan dengan fungisida sistemik Metalaksil-M 4% + Mancozeb 64% (Ridomil Gold MZ ® 4/64 WP) pada konsentrasi 3 g/l air, bergantian dengan fungisida kontak seperti klorotalonil (Daconil ® 500 F, 2g/l). Fungisida sistemik digunakan maksimal empat kali per musim.
-            6.	Untuk mengurangi penggunaan pestisida (+ 30%) dianjurkan untuk menggunakan nozel kipas yang butiran semprotannya berupa kabut dan merata.
+            'name' => 'Jamur Akar',
+            'reason' => 'Jamur Rosellinia bunodes merupakan jamur patogen tanah yang hidup di akar tanaman kopi.',
+            'solution' => '1.   Membersihkan sisa-sisa tanaman yang terinfeksi untuk mencegah penyebaran patogen dan menggunakan peralatan yang steril selama proses perawatan tanaman..
+            2.  Memastikan bibit yang digunakan bebas dari infeksi jamur. Menggunakan varietas tanaman kopi yang tahan terhadap penyakit.
+            3.	Menggunakan varietas tanaman kopi yang tahan terhadap penyakit.
+            4.	Meningkatkan sistem drainase untuk mengurangi kelembapan berlebih di sekitar perakaran.
+            5.	Aplikasi mikroorganisme antagonis seperti Trichoderma spp. yang dapat menghambat pertumbuhan Rosellinia bunodes.
             ',
-            'image' => '1015219247.jpg',
+            'image' => '580965006.png',
         ]);
 
         ModelsPenyakit::create([
-            'name' => 'Layu Fusarium',
-            'reason' => 'Fusarium Oxysporum',
-            'solution' => '1.   Penggunaan mulsa plastik perak di dataran tinggi, dan jerami di dataran rendah mengurangi penyakit tanah, terutama di musim hujan.
-            2.  Tanaman muda yang terinfeksi penyakit dimusnahkan dan disulam dengan yang sehat.
+            'name' => 'Mati Ujung/Pucuk',
+            'reason' => ' penyakit yang menyerang sistem percabangan pada tanaman kopi. Penyakit ini disebabkan oleh infeksi jamur Rhizoctonia sp.' ,
+            'solution' => ' 1.   Pemangkasan pada bagian cabang yang teridentifikasi diserang oleh jamur Ricoctonia sp.
+            2.  Mengaplikasikan fungisida sistemik atau bubur bordeaux. Fungisida sistemik akan masuk ke dalam jaringan tanaman dan meminimalkan populasi jamur di dalam jaringan cabang dan batang tanaman.
+            ',
+            'image' => '68664267.png',
+        ]);
+
+        ModelsPenyakit::create([
+            'name' => 'Rebah Batang',
+            'reason' => 'Jamur Rhizoctonia solani',
+            'solution' => '1.   Mengurangi kelembaban di pembibitan melalui penebaran benih yang tidak terlalu rapat, diusahakan mendapatkan cahaya matahari, dan pengaturan frekuensi penyiraman.
+            2.  Memilih tanah pembibitan yang bebas dari cendawan patogen R. solani.
             3.	Tanah-tanah yang terkontaminasi penyakit layu jangan digunakan. Infeksi penyakit layu dapat dipelajari pada tanaman sebelumnya.
-            4.  Sterilkan tanah serta lakukan pencegahan dengan menggunakan pupuk organik yang sudah masak, kocorkan agens hayati (Trichoderma atau pgpr)
-            5.  Membersihkan lahan dari sisa-sisa tanaman dan gulma sebelumnya. Membalik tanah agar terkena sinar matahari.
-            6.	Intercropping antara cabai dan tomat di dataran tinggi dapat mengurangi serangan hama dan penyakit serta menaikkan hasil.
-            7.	Pemupukan yang berimbang yaitu Urea 150-200 kg, ZA 450-500 kg, TSP 100-150 kg, KCl 100-150 kg, dan pupuk organik 20-30 ton per hektar.
+            4.  Aplikasi Trichoderma sp. dengan dosis 200 g/tanaman pada media pembibitan.
+        hama dan penyakit serta menaikkan hasil.
             ',
-            'image' => '1057130417.jpg',
-        ]);
-
-        ModelsPenyakit::create([
-            'name' => 'Layu Bakteri',
-            'reason' => 'Ralstonia Solanacearum ',
-            'solution' => '1.   Semaian yang terinfeksi penyakit harus dicabut dan dimusnahkan, media tanah yang terkontaminasi dibuang.
-            2.	Naungan persemaian secara bertahap dibuka agar matahari masuk dan tanaman menjadi lebih kuat.
-            3.	Media untuk penyemaian menggunakan lapisan sub soil 1,5-2 m di bawah permukaan tanah), pupuk kandang matang yang halus dan pasir kali pada perbandingan 1:1:1. Campuran media ini dipasteurisasi selama 2 jam.
-            4.  Sterilkan tanah serta lakukan pencegahan dengan menggunakan pupuk organik yang sudah masak, kocorkan agens hayati (Trichoderma atau pgpr)
-            5.	Penggunaan fungisida/bakterisida selektif dengan dosis batas terendah.
-            ',
-            'image' => '289529137.jpg',
+            'image' => '2142497414.png',
         ]);
     }
 }

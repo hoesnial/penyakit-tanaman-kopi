@@ -7,10 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="keywords" content="Sistem Pakar, Forward Chaining, Penyakit Tanaman Cabai">
     <meta name="description"
-        content="Sistem pakar untuk mendeteksi/mendiagnosis penyakit pada tanaman cabai dengan algoritma forward chaining">
+        content="Sistem pakar untuk mendeteksi/mendiagnosis penyakit pada tanaman kopi dengan algoritma forward chaining">
 
-    <link rel="icon" href="{{ asset('favicon-cabai.ico') }}">
-    <title>@yield('title') SPDHTC</title>
+    <link rel="icon" href="{{ asset(path: 'coffee-bean.ico') }}">
+    <title>@yield('title') SIPATANIKOPI</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
     <link rel="preload" as="style" href="{{ asset('/assets/css/user/splash-screen.css') }}">
     <link rel="stylesheet" href="{{ asset('/assets/css/user/splash-screen.css') }}">

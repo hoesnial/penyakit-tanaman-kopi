@@ -5,16 +5,21 @@
             <div class="row min-vh-100 min-vh-u-lg-85 align-content-center">
                 <div class="col-12 col-lg-6 py-5" data-aos="fade-right" id="container-image-hero">
                     <img class="img-fluid bg-body-tertiary rounded" id="gambar-cabai"
-                        src="{{ asset('assets/img/gambar-cabai.webp') }}" width="1280" height="853"
-                        alt="Gambar Cabai https://fumida.co.id/wp-content/uploads/2021/03/67.-membasmi-hama-cabai.jpg">
+                        src="{{ asset('assets/img/gambar-kopi.jpg') }}" width="1280" height="853"
+                        alt="Gambar Tanaman Kopi">
                 </div>
                 <div class="col-12 col-lg-6 align-self-center px-3 px-sm-5" data-aos="fade-left" data-aos-anchor="body"
                     id="col2">
                     <h1 class="text-start font-bold ">
-                        Sistem Pakar Diagnosis Penyakit Tanaman Cabai
+                        Sistem Pakar Diagnosis Penyakit Tanaman Kopi
                     </h1>
-                    <p class="lead">Temukan penyakit yang menyerang tanaman cabai anda serta ketahui penyebab dan solusi
-                        pengendaliannya. Daftar sekarang lalu mulai diagnosis untuk hasil panen yang lebih baik!</p>
+                    <p class="lead">Temukan penyakit yang menyerang tanaman kopi anda serta ketahui penyebab dan solusi
+                        pengendaliannya. mulai diagnosis untuk hasil panen yang lebih baik!</p>
+                        <div class="d-grid pt-3">
+                                <button id="btn-diagnosis" class="btn btn-custom1 py-2">
+                                    Mulai Diagnosis Penyakit
+                                </button>
+                            </div>
                 </div>
             </div>
         </div>
@@ -50,7 +55,7 @@
     <div id="penyakit" class=" section">
         <div class="container">
             <h2 class="fw-semibold" data-aos="fade-up">
-                Daftar Penyakit Tanaman Cabai
+                Daftar Penyakit Tanaman Kopi
             </h2>
             <div class="row">
                 <div class="col-12">

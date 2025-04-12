@@ -29,7 +29,7 @@
         }
 
         thead {
-            background-color: #04AA6D;
+            background-color:rgb(180, 106, 4);
             color: #fff;
         }
 

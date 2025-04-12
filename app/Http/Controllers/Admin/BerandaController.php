@@ -21,9 +21,9 @@ class BerandaController extends Controller
             'jumlahPenyakit' => $this->jumlahPenyakit(),
             'jumlahGejala' => $this->jumlahGejala(),
             'jumlahDiagnosis' => $this->jumlahDiagnosis(),
-            'chartProvince' => $this->chartProvince(),
-            'chartCity' => $this->chartCity(),
-            'chartProfession' => $this->chartProfession(),
+            'chartProvince' => [],
+            'chartCity' => [],
+            'chartProfession' => [],
             'diagnosisPenyakit' => $this->diagnosisPenyakit(),
         ];
 

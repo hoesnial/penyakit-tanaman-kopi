@@ -5,7 +5,7 @@
                 <i class="d-flex justify-content-center fa-solid fa-user-doctor fa-bounce"
                     style="height: 24px; width: 30px"></i>
             </div>
-            SPDHTC
+            SIPATANI
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

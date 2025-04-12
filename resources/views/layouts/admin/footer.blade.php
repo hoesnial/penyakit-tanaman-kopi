@@ -1,8 +1,7 @@
 <div class="footer-left">
     Copyright &copy; 2023 <div class="bullet"></div>
-    <a href="https://github.com/rizkyilhampra/spdhtc">
-        SPDHTC
-    </a>
+    <p class="font-monospace font-semibold" >SIPATANI. All rights
+                reserved.</p>
 </div>
 <div class="footer-right">
     0.1
