@@ -138,7 +138,7 @@ class Penyakit extends Seeder
             3. pengendalian dengan cendawan, pengendalian kultur, dan pengendalian biologis.
             ',
             'image' => '1237859333.png',
-        
+        ]);
         ModelsPenyakit::create([
             'name' => 'Rebah Batang',
             'reason' => 'Jamur Rhizoctonia solani',

@@ -62,7 +62,7 @@ class Rule extends Seeder
 
         ModelsRule::create([
             'penyakit_id' =>  Penyakit::where('id', 5)->first()->id,
-            'gejala_id' => Gejala::where('id', 7)->first()->id
+            'gejala_id' => Gejala::where('id', 9)->first()->id
         ]);
 
         ModelsRule::create([
@@ -72,26 +72,16 @@ class Rule extends Seeder
 
         ModelsRule::create([
             'penyakit_id' =>  Penyakit::where('id', 6)->first()->id,
-            'gejala_id' => Gejala::where('id', 7)->first()->id
-        ]);
-
-        ModelsRule::create([
-            'penyakit_id' =>  Penyakit::where('id', 6)->first()->id,
-            'gejala_id' => Gejala::where('id', 9)->first()->id
-        ]);
-
-        ModelsRule::create([
-            'penyakit_id' =>  Penyakit::where('id', 7)->first()->id,
             'gejala_id' => Gejala::where('id', 11)->first()->id
         ]);
 
         ModelsRule::create([
-            'penyakit_id' =>  Penyakit::where('id', 8)->first()->id,
+            'penyakit_id' =>  Penyakit::where('id', 6)->first()->id,
             'gejala_id' => Gejala::where('id', 12)->first()->id
         ]);
 
         ModelsRule::create([
-            'penyakit_id' =>  Penyakit::where('id', 8)->first()->id,
+            'penyakit_id' =>  Penyakit::where('id', 7)->first()->id,
             'gejala_id' => Gejala::where('id', 13)->first()->id
         ]);
 
@@ -101,12 +91,12 @@ class Rule extends Seeder
         ]);
 
         ModelsRule::create([
-            'penyakit_id' =>  Penyakit::where('id', 9)->first()->id,
+            'penyakit_id' =>  Penyakit::where('id', 8)->first()->id,
             'gejala_id' => Gejala::where('id', 15)->first()->id
         ]);
 
         ModelsRule::create([
-            'penyakit_id' =>  Penyakit::where('id', 9)->first()->id,
+            'penyakit_id' =>  Penyakit::where('id', 8)->first()->id,
             'gejala_id' => Gejala::where('id', 16)->first()->id
         ]);
 
@@ -116,38 +106,48 @@ class Rule extends Seeder
         ]);
 
         ModelsRule::create([
-            'penyakit_id' =>  Penyakit::where('id', 10)->first()->id,
-            'gejala_id' => Gejala::where('id', 15)->first()->id
-        ]);
-
-        ModelsRule::create([
-            'penyakit_id' =>  Penyakit::where('id', 10)->first()->id,
+            'penyakit_id' =>  Penyakit::where('id', 9)->first()->id,
             'gejala_id' => Gejala::where('id', 18)->first()->id
         ]);
 
         ModelsRule::create([
-            'penyakit_id' =>  Penyakit::where('id', 10)->first()->id,
+            'penyakit_id' =>  Penyakit::where('id', 9)->first()->id,
             'gejala_id' => Gejala::where('id', 19)->first()->id
         ]);
 
         ModelsRule::create([
-            'penyakit_id' =>  Penyakit::where('id', 11)->first()->id,
-            'gejala_id' => Gejala::where('id', 7)->first()->id
+            'penyakit_id' =>  Penyakit::where('id', 10)->first()->id,
+            'gejala_id' => Gejala::where('id', 20)->first()->id
+        ]);
+
+        ModelsRule::create([
+            'penyakit_id' =>  Penyakit::where('id', 10)->first()->id,
+            'gejala_id' => Gejala::where('id', 21)->first()->id
+        ]);
+
+        ModelsRule::create([
+            'penyakit_id' =>  Penyakit::where('id', 10)->first()->id,
+            'gejala_id' => Gejala::where('id', 22)->first()->id
         ]);
 
         ModelsRule::create([
             'penyakit_id' =>  Penyakit::where('id', 11)->first()->id,
-            'gejala_id' => Gejala::where('id', 20)->first()->id
+            'gejala_id' => Gejala::where('id', 23)->first()->id
+        ]);
+
+        ModelsRule::create([
+            'penyakit_id' =>  Penyakit::where('id', 11)->first()->id,
+            'gejala_id' => Gejala::where('id', 24)->first()->id
         ]);
 
         ModelsRule::create([
             'penyakit_id' =>  Penyakit::where('id', 12)->first()->id,
-            'gejala_id' => Gejala::where('id', 20)->first()->id
+            'gejala_id' => Gejala::where('id', 25)->first()->id
         ]);
 
         ModelsRule::create([
             'penyakit_id' =>  Penyakit::where('id',12 )->first()->id,
-            'gejala_id' => Gejala::where('id', 21)->first()->id
+            'gejala_id' => Gejala::where('id', 26)->first()->id
         ]);
     }
 }
