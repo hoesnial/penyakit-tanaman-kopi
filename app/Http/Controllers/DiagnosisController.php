@@ -77,7 +77,7 @@ class DiagnosisController extends Controller
         //Basis Fakta
         $fakta = $answerLog;
 
-        //Inferensi
+        //Inferensi 
         $terdeteksi = false;
         foreach ($aturan as $penyakitId => $gejala) {
             $apakahPenyakit = true;
@@ -97,6 +97,27 @@ class DiagnosisController extends Controller
                 $terdeteksi = true;
             }
         }
+
+        // $aturan = [
+        //     1 => [1, 2, 3], // Penyakit 1 butuh gejala 1, 2, dan 3
+        //     2 => [1, 4]     // Penyakit 2 butuh gejala 1 dan 4
+        // ];
+        
+
+        // $fakta1 = [
+        //     1 => true,
+        //     2 => true,
+        //     3 => true,
+        //     maka langsung terdeteksi sesuai rule dan pertanyaan berhenti
+
+        // $fakta2 = [
+        //     1 => true,
+        //     2 => false,
+        //     mala langsung ke penyakit berikutnya 
+        //     4 => ?
+        //     5 => ? 
+        // ];
+        
 
         // Tidak ada penyakit yang terdeteksi
         if (!$terdeteksi && $request->idgejala == $this->allGejala) {
